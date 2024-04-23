@@ -5,9 +5,7 @@ public class Main {
             
 	public static void main(String[] args) {
 		
-	     
-	        
-	        
+	            
 	        Rettangolo rettangolo = new Rettangolo();
 	        
 	    
@@ -16,9 +14,8 @@ public class Main {
 	       
 	        System.out.println("Area = " + rettangolo.calcolaArea());
 	        
-	       
-	        System.out.println("  ");
-	        rettangolo.disegna();
+	
+	        rettangolo.disegnaRettangolo();
 	};	
 	
       

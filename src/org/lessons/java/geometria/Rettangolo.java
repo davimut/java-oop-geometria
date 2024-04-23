@@ -26,7 +26,7 @@ public class Rettangolo {
         return Area;
     }
 
-    public void disegna() {
+    public void disegnaRettangolo() {
         for (int i = 0; i < altezza; i++) {
             for (int n = 0; n < base; n++) {
                 if (i == 0 || i == altezza - 1 || n == 0 || n == base - 1) {
